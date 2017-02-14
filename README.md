@@ -11,7 +11,7 @@ Personal checklist for setting up a new Mac's dev environment. Inspired by [mdo/
 > Be sure to open Xcode and agree to the terms of use.
 
 ### 2. Prep Terminal.app
-* Load `.bash_profile`
+* Load [`.bash_profile`](https://github.com/mattmilburn/config/blob/master/.bash_profile)
 
 ### 3. Additional dependencies
 * *Under Construction*
