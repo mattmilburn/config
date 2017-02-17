@@ -14,6 +14,8 @@ alias log='git log --oneline'
 alias master='git checkout master'
 alias pull='git pull'
 alias push='git push origin HEAD'
+alias rebase='git rebase -i'
+alias reset='git reset --hard HEAD'
 alias status='git status'
 
 ## Heroku Commands
