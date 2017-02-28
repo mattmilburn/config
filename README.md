@@ -13,6 +13,7 @@ Personal checklist for setting up a new Mac's dev environment. Inspired by [mdo/
 
 ### 2. Prep Terminal.app
 * Load [`.bash_profile`](https://github.com/mattmilburn/config/blob/master/bash/.bash_profile)
+* Load [`.gitconfig`](https://github.com/mattmilburn/config/blob/master/git/.gitconfig) contents into the global ~/.gitconfig
 
 
 ### 3. Install dependencies and apps with Homebrew
