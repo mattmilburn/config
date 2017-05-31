@@ -26,5 +26,10 @@ Install Homebrew
 Navigate to same directory as the `Brewfile` and run `brew bundle`.
 
 
-### 4. Customize things
+### 4. Install extra apps from AppStore or official website
+* Coda
+* Wunderlist
+
+
+### 5. Customize things
 * *Under Construction*
