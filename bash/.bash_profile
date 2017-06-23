@@ -1,8 +1,8 @@
 # Aliases
 
 ## Shortcuts
-alias editgit='atom ~/.gitconfig'
-alias editbash='atom ~/.bash_profile'
+alias editgit='coda ~/.gitconfig'
+alias editbash='coda ~/.bash_profile'
 
 ## Git Commands
 alias add='git add . && git status'
