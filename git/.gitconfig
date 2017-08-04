@@ -3,8 +3,9 @@
 	email = me@mattmilburn.com
 
 [alias]
+	aa = add .
 	co = checkout
+	cm = commit
 	cp = cherry-pick
-	ci = commit
+	ri = rebase -i
 	st = status
-	br = branch
