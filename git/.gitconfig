@@ -4,8 +4,10 @@
 
 [alias]
 	aa = add .
+	br = branch
 	co = checkout
-	cm = commit
+	cm = commit -m
 	cp = cherry-pick
+	ls = log --graph --oneline
 	ri = rebase -i
 	st = status
