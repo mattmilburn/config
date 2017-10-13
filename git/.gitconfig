@@ -4,6 +4,8 @@
 
 [alias]
 	aa = add .
+	bd = branch -D
+	bn = branch -b
 	br = branch
 	co = checkout
 	cm = commit -m
