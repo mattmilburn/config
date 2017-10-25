@@ -22,31 +22,31 @@ Javascript
 
 | code | output |
 |:--- |:--- |
-| af | arrow function |
-| fn | regular function |
-| iife | immediately invoked function expression |
-| trace | console.log() |
+| `af` | arrow function |
+| `fn` | regular function |
+| `iife` | immediately invoked function expression |
+| `trace` | console.log() |
 
 PHP
 
 | code | output |
 |:--- |:--- |
-| php | php tags |
-| echo | php tags with echo statement |
+| `php` | php tags |
+| `echo` | php tags with echo statement |
 
 HTML
 
 | code | output |
 |:--- |:--- |
-| lorem | a single paragraph of lorem ipsum text  |
-| .wrapper | a div enclosure with a class name attribute |
-| container | a div enclosure with a `container` class name |
-| row | a div enclosure with a `row` class name |
-| col | a div enclosure with a partial class name of `col-sm-` |
+| `lorem` | a single paragraph of lorem ipsum text  |
+| `.wrapper` | a div enclosure with a class name attribute |
+| `container` | a div enclosure with a `container` class name |
+| `row` | a div enclosure with a `row` class name |
+| `col` | a div enclosure with a partial class name of `col-sm-` |
 
 Misc
 
 | code | output |
 |:--- |:--- |
-| // | comment block |
-| todo | todo comment block |
+| `//` | comment block |
+| `todo` | todo comment block |
