@@ -38,11 +38,18 @@ HTML
 
 | code | output |
 |:--- |:--- |
-| `lorem` | a single paragraph of lorem ipsum text  |
+| `lorem` | a single paragraph of lorem ipsum text |
 | `.wrapper` | a div enclosure with a class name attribute |
 | `container` | a div enclosure with a `container` class name |
 | `row` | a div enclosure with a `row` class name |
 | `col` | a div enclosure with a partial class name of `col-sm-` |
+
+CSS
+
+| code | output |
+|:--- |:--- |
+| `!` | `!important` |
+| `clearfix` | styles to apply a clearfix |
 
 Misc
 
