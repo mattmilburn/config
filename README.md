@@ -33,7 +33,7 @@ Navigate to same directory as the `Brewfile` and run `brew bundle`.
 
 ### 5. Customize things
 
-Setup Coda
+#### Setup Coda
 * Run `brew install coda-cli` to **provide shell integration** for Coda.
 * **Install Sweet Darkness theme** by opening with `Sweet Darkness.sss` with the Coda app. It will then be available to select from the Style Sheet setting in the `Preferences > Colors` tab. You could also use the import option here to enable the theme.
 * **Install custom clips** by opening each `.clips` file with the Coda app. Each group of clips will be available in Coda right away. You could also import clips by right-clicking in the clips sidebar and choosing import clips.
