@@ -12,12 +12,12 @@ alias repos='cd ~/desktop/repos'
 
 # Scripts
 
-## Clone repository from Github
+## Clone repository from Github after switching to local `repos` directory
 clone() {
-    git clone https://github.com/${1}/${2}
+    repos && git clone https://github.com/${1}/${2}
 }
 
-## Clone repository from Heroku
+## Clone repository from Heroku after switching to local `repos` directory
 clone_heroku() {
-    git clone https://git.heroku.com/${1}.git
+    repos && git clone https://git.heroku.com/${1}.git
 }
