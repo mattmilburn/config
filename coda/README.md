@@ -26,6 +26,10 @@ Javascript
 | `fn` | regular function |
 | `iife` | immediately invoked function expression |
 | `trace` | console.log() |
+| `react` | import React |
+| `comp` | React component extending Component |
+| `pure` | React component extending PureComponent |
+| `dumb` | React dumb component |
 
 PHP
 
