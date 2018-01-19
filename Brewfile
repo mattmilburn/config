@@ -6,6 +6,7 @@ brew 'git'
 brew 'node'
 
 cask 'atom'
+cask 'dropbox'
 cask 'firefox'
 cask 'google-chrome'
 cask 'postman'
