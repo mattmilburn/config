@@ -25,8 +25,3 @@ scanfor() {
 clone() {
     repos && git clone https://github.com/${1}/${2}
 }
-
-## Clone repository from Heroku after switching to local `repos` directory
-clone_heroku() {
-    repos && git clone https://git.heroku.com/${1}.git
-}
