@@ -16,12 +16,19 @@ alias ddown='docker-compose down -v && docker-compose kill'
 
 # Scripts
 
+## Clone repository from Github after switching to local `repos` directory
+clone() {
+    repos && git clone https://github.com/${1}/${2}
+}
+
 ## Recursively `grep` a directory and its subdirectories to find files containing the given string
 scanfor() {
     grep -rl --exclude-dir=node_modules ${1} *
 }
 
-## Clone repository from Github after switching to local `repos` directory
-clone() {
-    repos && git clone https://github.com/${1}/${2}
+## Remove any existing Docker images and containers
+docker-purge() {
+    docker stop $(docker ps -a -q)
+    docker rm $(docker ps -a -q)
+    docker rmi $(docker images -q)
 }
