@@ -10,6 +10,7 @@
 	co = checkout
 	cm = commit -m
 	cp = cherry-pick
+	ld = diff --stat --color
 	ls = log --graph --oneline --decorate
 	ri = rebase -i
 	st = status
