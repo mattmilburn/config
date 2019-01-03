@@ -12,6 +12,7 @@ alias repos='cd ~/desktop/repos'
 # Docker Shortcuts
 alias dup='docker-compose up'
 alias ddown='docker-compose down -v && docker-compose kill'
+alias drestart='ddown && dpurge && dup'
 
 
 # Scripts
@@ -27,7 +28,7 @@ scanfor() {
 }
 
 ## Remove any existing Docker images and containers
-docker-purge() {
+dpurge() {
     docker stop $(docker ps -a -q)
     docker rm $(docker ps -a -q)
     docker rmi $(docker images -q)
