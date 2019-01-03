@@ -3,7 +3,6 @@
 	email = me@mattmilburn.com
 
 [alias]
-	aa = add .
 	bd = branch -D
 	bn = checkout -b
 	br = branch
