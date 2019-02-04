@@ -5,6 +5,7 @@
 [alias]
 	bd = branch -D
 	bn = checkout -b
+	bp = push -u origin
 	br = branch
 	co = checkout
 	cm = commit -m
