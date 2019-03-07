@@ -11,6 +11,7 @@ alias repos='cd ~/desktop/repos'
 
 # Docker Shortcuts
 alias dup='docker-compose up'
+alias dwp='docker-compose run wpcli'
 alias ddown='docker-compose down -v && docker-compose kill'
 alias drestart='ddown && dpurge && dup'
 
