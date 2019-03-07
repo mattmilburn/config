@@ -5,12 +5,12 @@
 [alias]
 	bd = branch -D
 	bn = checkout -b
-	bp = push -u origin
 	br = branch
 	co = checkout
 	cm = commit -m
 	cp = cherry-pick
 	df = diff --stat --color
 	ls = log --graph --oneline --decorate
+	pu = push -u origin
 	ri = rebase -i
 	st = status
