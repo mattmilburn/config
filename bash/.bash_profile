@@ -3,6 +3,8 @@
 ## Shortcuts
 alias editgit='coda ~/.gitconfig'
 alias editbash='coda ~/.bash_profile'
+alias edithosts='coda /etc/hosts'
+alias flushhosts='sudo killall -HUP mDNSResponder'
 
 ## Switching Directories
 alias root='cd ~/'
