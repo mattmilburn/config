@@ -27,7 +27,7 @@ clone() {
 
 ## Recursively `grep` a directory and its subdirectories to find files containing the given string
 scanfor() {
-    grep -rl --exclude-dir=node_modules ${1} *
+    grep -rl --exclude-dir=node_modules --exclude-dir=dist --exclude-dir=build ${1} *
 }
 
 ## Remove any existing Docker images and containers
