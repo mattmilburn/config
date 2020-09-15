@@ -12,6 +12,7 @@
 	df = diff --stat --color
 	ls = log --graph --oneline --decorate
 	pu = push -u origin
+	pr = pull --rebase
 	rh = reset --hard HEAD
 	ri = rebase -i
 	st = status
