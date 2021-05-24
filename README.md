@@ -10,7 +10,7 @@ Go through **System Preferences** and configure as you wish. There is no need to
 #### Install Xcode
 
 * Download and install the latest version of Xcode from the App Store
-* Open **Terminal** and run `x-code-select -- install` to install command line developer tools
+* Open **Terminal** and run `xcode-select --install` to install command line developer tools
 
 > Be sure to open Xcode and agree to the terms of use.
 
@@ -64,3 +64,14 @@ Navigate to same directory as the `Brewfile` and run:
 ```
 brew bundle
 ```
+
+
+#### Optional installations
+
+* Blender
+* Dropbox
+* MAMP
+* PHP Storm
+* Postgres
+* VirtualBox
+* Unity Hub
