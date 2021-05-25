@@ -1,8 +1,9 @@
 # Aliases
 
 ## Shortcuts
+alias refresh="source ~/.zshrc"
 alias editgit="atom ~/.gitconfig"
-alias editbash="atom ~/.bash_profile"
+alias editzsh="atom ~/.zshrc"
 alias edithosts="atom /etc/hosts"
 alias flushhosts="sudo killall -HUP mDNSResponder"
 
