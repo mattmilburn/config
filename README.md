@@ -64,6 +64,25 @@ brew bundle
 ```
 
 
+### Setup `nvm`
+
+Create the directory for `.nvm` if it does not already exist.
+```
+mkdir ~/.nvm
+```
+
+Add this to the end of your `~/.zshrc` file.
+```
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+```
+
+Now, either restart the terminal or run:
+```
+source ~/.zshrc
+```
+
+
 ### Optional Installations
 
 Must uncomment anything from this list in `Brewfile`.
@@ -72,6 +91,5 @@ Must uncomment anything from this list in `Brewfile`.
 * Dropbox
 * MAMP
 * PHP Storm
-* Postgres
 * VirtualBox
 * Unity Hub
