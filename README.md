@@ -25,7 +25,7 @@ Go through **System Preferences** and configure as you wish. There is no need to
 
 * Disable **Look up & data selectors**
 * Enable **Tap to click**
-* Increase **Tracking speed** to `50%``
+* Increase **Tracking speed** to `50%`
 * Disable **Force Click and haptic feedback**
 * Disable **Scroll direction: Natural** (BECAUSE IT'S SO STUPID)
 * Set gestures for **Swipe between pages** to `Swipe with three fingers`
@@ -45,8 +45,8 @@ Go through **System Preferences** and configure as you wish. There is no need to
 
 #### Terminal
 
-* Load [`.bash_profile`](https://github.com/mattmilburn/config/blob/master/.bash_profile)
-* Load [`.gitconfig`](https://github.com/mattmilburn/config/blob/master/.gitconfig) contents into the global `~/.gitconfig`
+* Import [`.zshrc`](https://github.com/mattmilburn/config/blob/master/.zshrc) contents into `~/.zshrc`
+* Import [`.gitconfig`](https://github.com/mattmilburn/config/blob/master/.gitconfig) contents into `~/.gitconfig`
 * In the app settings, set the **New window with profile** option to `Pro`
 * In the app settings, set the **Profile** to `Pro` and the **font size** to `16`
 * In the app settings, set the `Pro` theme as `default`
@@ -58,15 +58,13 @@ Go through **System Preferences** and configure as you wish. There is no need to
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-
-#### Install additional dependencies
-Navigate to same directory as the `Brewfile` and run:
+Navigate to same location as the `Brewfile` and run:
 ```
 brew bundle
 ```
 
 
-#### Optional installations
+#### Optional Installations
 
 * Blender
 * Dropbox
