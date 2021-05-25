@@ -2,12 +2,12 @@
 Personal checklist for setting up a new Mac for my personal preferences and configuring the right development tools.
 
 
-#### System Preferences
+### System Preferences
 
 Go through **System Preferences** and configure as you wish. There is no need to itemize every configuration as new Macs usually have updates to these settings.
 
 
-#### Install Xcode
+### Install Xcode
 
 * Download and install the latest version of Xcode from the App Store
 * Open **Terminal** and run `xcode-select --install` to install command line developer tools
@@ -15,35 +15,35 @@ Go through **System Preferences** and configure as you wish. There is no need to
 > Be sure to open Xcode and agree to the terms of use.
 
 
-#### Zoom Control
+### Zoom Control
 
 * Under **Accessibility**, check the box for the setting to **Use scroll gesture with modifier keys to zoom** and use the `^ Control` option
 * Also disable **Smooth edges** in the **Advanced** section
 
 
-#### Trackpad
+### Trackpad
 
 * Disable **Look up & data selectors**
 * Enable **Tap to click**
 * Increase **Tracking speed** to `50%`
 * Disable **Force Click and haptic feedback**
-* Disable **Scroll direction: Natural** (BECAUSE IT'S SO STUPID)
+* Disable **Scroll direction: Natural**
 * Set gestures for **Swipe between pages** to `Swipe with three fingers`
 * Set gestures for **App Exposé** to `Swipe down with three fingers`
 * Disable Launchpad gestures
 
 
-#### Dock & Menu Bar
+### Dock & Menu Bar
 
 * Remove **Downloads** from dock and drag **Documents** into its place
 * Enable **Bluetooth** to display in menu bar
 * Enable **Show Percentage** in **Battery** section
-* Add **Digital Color Meter** app icon to the dock.
-* Add **iOS Simulator** app icon to the dock.
-* Add **Terminal** app icon to the dock.
+* Add **Digital Color Meter** app icon to the dock
+* Add **iOS Simulator** app icon to the dock
+* Add **Terminal** app icon to the dock
 
 
-#### Terminal
+### Terminal
 
 * Import [`.zshrc`](https://github.com/mattmilburn/config/blob/master/.zshrc) contents into `~/.zshrc`
 * Import [`.gitconfig`](https://github.com/mattmilburn/config/blob/master/.gitconfig) contents into `~/.gitconfig`
@@ -52,7 +52,7 @@ Go through **System Preferences** and configure as you wish. There is no need to
 * In the app settings, set the `Pro` theme as `default`
 
 
-#### Install Homebrew
+### Install Homebrew
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -64,7 +64,9 @@ brew bundle
 ```
 
 
-#### Optional Installations
+### Optional Installations
+
+Must uncomment anything from this list in `Brewfile`.
 
 * Blender
 * Dropbox
