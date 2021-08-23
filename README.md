@@ -64,7 +64,6 @@ Navigate to same location as the `Brewfile` and run:
 brew bundle
 ```
 
-
 #### Setup `nvm`
 
 Create the directory for `.nvm` if it does not already exist.
@@ -82,7 +81,6 @@ Now, either restart the terminal or run:
 ```
 source ~/.zshrc
 ```
-
 
 #### Optional Installations
 
@@ -111,4 +109,15 @@ heroku login
 Add git remotes.
 ```
 heroku git:remote --app <APP_NAME>
+```
+
+
+### Atom
+
+Enable keyboard shortcut command to **toggle invisible characters**.
+
+Open `Settings > Keybindings` and click the link for **your keymap file**. Paste this code to the bottom of that file.
+```
+'atom-text-editor':
+  'cmd-shift-i': 'window:toggle-invisibles'
 ```
