@@ -82,17 +82,6 @@ Now, either restart the terminal or run:
 source ~/.zshrc
 ```
 
-#### Optional Installations
-
-Must uncomment anything from this list in `Brewfile`.
-
-* Blender
-* Dropbox
-* MAMP
-* PHP Storm
-* VirtualBox
-* Unity Hub
-
 
 ### Heroku CLI
 

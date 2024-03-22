@@ -1,18 +1,21 @@
 [user]
-	name = Matt Milburn
-	email = me@mattmilburn.com
+  name = Matt Milburn
+  email = me@mattmilburn.com
 
 [alias]
-	bd = branch -D
-	bn = checkout -b
-	br = branch
-	co = checkout
-	cm = commit -m
-	cp = cherry-pick
-	df = diff --stat --color
-	ls = log --graph --oneline --decorate
-	pu = push -u origin
-	pr = pull --rebase
-	rh = reset --hard HEAD
-	ri = rebase -i
-	st = status
+  bd = branch -D # Delete branch
+  bn = checkout -b # Checkout new branch
+  br = branch # List branches
+  co = checkout # Checkout branch
+  cm = commit -m # Commit with message
+  cp = cherry-pick # Cherry pick
+  df = diff --stat --color # Diff with colors
+  ls = log --graph --oneline --decorate # Simple logs
+  pu = push -u origin # Push branch upstream
+  pr = pull --rebase # Pull and rebase remote into local branch
+  rh = reset --hard HEAD # Dismiss all uncomitted changes
+  ri = rebase -I # Interactive rebase
+  st = status # Display current working tree
+
+[init]
+  defaultBranch = main
