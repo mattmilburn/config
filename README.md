@@ -99,12 +99,44 @@ source ~/.zshrc
 ```
 
 
+## Code Editors
+
 ### Atom
 
-Enable keyboard shortcut command to **toggle invisible characters**.
+#### Enable keyboard shortcut command to **toggle invisible characters**
 
 Open `Settings > Keybindings` and click the link for **your keymap file**. Paste this code to the bottom of that file.
+
 ```
 'atom-text-editor':
   'cmd-shift-i': 'window:toggle-invisibles'
+```
+
+#### Install packages
+
+Open `Settings > Packages` and install the following packages:
+
+```
+atom-beautify
+language-postcss
+```
+
+
+### VS Code
+
+#### Install extensions
+
+Click the `Extensions` icon in the left sidebar and install the following extensions:
+
+```
+ES7 + React/Redux/React-Native snippets
+ESLint
+Github Actions
+GitLens - Git supercharged
+GraphQL: Inline Operation Execution
+GraphQL: Language Feature Support
+GraphQL: Syntax Highlighting
+Prettier - Code formatter
+Prettier ESLint
+YAML
 ```
