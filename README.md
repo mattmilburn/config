@@ -2,11 +2,6 @@
 Personal checklist for setting up a new Mac for my personal preferences and configuring the right development tools.
 
 
-### System Preferences
-
-Go through **System Preferences** and configure as you wish. There is no need to itemize every configuration as new Macs usually have updates to these settings.
-
-
 ### Xcode
 
 * Download and install the latest version of Xcode from the App Store
@@ -15,10 +10,9 @@ Go through **System Preferences** and configure as you wish. There is no need to
 > Be sure to open Xcode and agree to the terms of use.
 
 
-### Zoom Control
+## System Settings
 
-* Under **Accessibility**, check the box for the setting to **Use scroll gesture with modifier keys to zoom** and use the `^ Control` option
-* Also disable **Smooth edges** in the **Advanced** section
+Go through **System Preferences** and configure as you wish. There is no need to itemize every configuration as new Macs usually have updates to these settings.
 
 
 ### Trackpad
@@ -33,23 +27,45 @@ Go through **System Preferences** and configure as you wish. There is no need to
 * Disable Launchpad gestures
 
 
-### Dock & Menu Bar
+### Zoom Control
 
+* Under **Accessibility**, check the box for the setting to **Use scroll gesture with modifier keys to zoom** and use the `^ Control` option
+* Also disable **Smooth edges** in the **Advanced** section
+
+
+### Menubar
+
+* Under **Control Center**, enable **Bluetooth** to display in menu bar
+* Under **Control Center**, enable **Show Percentage** in **Battery** section
+
+
+### Desktop
+
+* Activate **Mission Control** and create 4 desktops
+* Customize the sidebar to only have a 2x2 weather widget and any necessary 1x1 clock widgets
+* Under **Battery**, click **Options** and disable **Slightly dim the display on battery**
+* Under **Desktop and Stage Manager** change **click wallpaper to reveal desktop** from `always` to `only in stage manager`
+
+
+### Dock
+
+* Disable **Show suggested and recent apps in Dock**
 * Remove **Downloads** from dock and drag **Documents** into its place
-* Enable **Bluetooth** to display in menu bar
-* Enable **Show Percentage** in **Battery** section
-* Add **Digital Color Meter** app icon to the dock
-* Add **iOS Simulator** app icon to the dock
 * Add **Terminal** app icon to the dock
+* Add **Activity Monitor** app icon to the dock
+* Add **Calculator** app icon to the dock
+* Add **Digital Color Meter** app icon to the dock
+* Add **iOS Simulator** app icon (from XCode app) to the dock
+* Add remaining app icons into the dock once they're installed with Homebrew
 
 
 ### Terminal
 
+* In the app settings, set the **New window with profile** option to `Pro`
+* In the app settings, set the **Profile** to `Pro` and the **font size** to `18`
+* In the app settings, set the `Pro` theme as `default`
 * Import [`.zshrc`](https://github.com/mattmilburn/config/blob/master/.zshrc) contents into `~/.zshrc`
 * Import [`.gitconfig`](https://github.com/mattmilburn/config/blob/master/.gitconfig) contents into `~/.gitconfig`
-* In the app settings, set the **New window with profile** option to `Pro`
-* In the app settings, set the **Profile** to `Pro` and the **font size** to `16`
-* In the app settings, set the `Pro` theme as `default`
 
 
 ### Homebrew
