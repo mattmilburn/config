@@ -83,24 +83,6 @@ source ~/.zshrc
 ```
 
 
-### Heroku CLI
-
-Install Heroku CLI.
-```
-brew tap heroku/brew && brew install heroku
-```
-
-Login to your Heroku account.
-```
-heroku login
-```
-
-Add git remotes.
-```
-heroku git:remote --app <APP_NAME>
-```
-
-
 ### Atom
 
 Enable keyboard shortcut command to **toggle invisible characters**.
