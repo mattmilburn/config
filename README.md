@@ -45,6 +45,7 @@ Go through **System Preferences** and configure as you wish. There is no need to
 * Customize the sidebar to only have a 2x2 weather widget and any necessary 1x1 clock widgets
 * Under **Battery**, click **Options** and disable **Slightly dim the display on battery**
 * Under **Desktop and Stage Manager** change **click wallpaper to reveal desktop** from `always` to `only in stage manager`
+* Under **Mission Control** disable `Automatically rearrange Spaces based on most recent use`
 
 
 ### Dock
@@ -59,6 +60,16 @@ Go through **System Preferences** and configure as you wish. There is no need to
 * Add remaining app icons into the dock once they're installed with Homebrew
 
 
+### Finder
+
+* Create a `repos` folder on the desktop, if it's not already there
+* Open the `repos` folder and right-click and select **Show View Options**
+* Set the **Sort By** method to `name`
+* After setting the sort method, click **Use as defaults** to apply to all Finder windows
+* Drag `repos` folder into the left sidebar (bottom) as a shortcut
+* Find the root `mattmilburn` folder and drag it to the left sidebar (top) as a shortcut
+
+
 ### Terminal
 
 * In the app settings, set the **New window with profile** option to `Pro`
@@ -68,6 +79,8 @@ Go through **System Preferences** and configure as you wish. There is no need to
 * Import [`.gitconfig`](https://github.com/mattmilburn/config/blob/master/.gitconfig) contents into `~/.gitconfig`
 
 
+## Apps and Coding Environment
+
 ### Homebrew
 
 Install Homebrew.
@@ -75,13 +88,16 @@ Install Homebrew.
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+
+### Install apps
+
 Navigate to same location as the `Brewfile` and run:
 ```
 brew bundle
 ```
 
-#### Setup `nvm`
 
+### Setup `nvm`
 Create the directory for `.nvm` if it does not already exist.
 ```
 mkdir ~/.nvm
@@ -98,14 +114,21 @@ Now, either restart the terminal or run:
 source ~/.zshrc
 ```
 
+Finally, install whichever version of Node is needed:
+```
+nvm install 18.18.0
+```
+
 
 ## Code Editors
 
 ### Atom
 
-#### Enable keyboard shortcut command to **toggle invisible characters**
+#### Customize settings
+Open `Settings > Editor` and set the **Default Font Size** and **Font Size** to 16.
 
-Open `Settings > Keybindings` and click the link for **your keymap file**. Paste this code to the bottom of that file.
+#### Enable keyboard shortcut command to **toggle invisible characters**
+Open `Settings > Keybindings` and click the link for **your keymap file**. Paste this code to the bottom of that file:
 
 ```
 'atom-text-editor':
@@ -113,7 +136,6 @@ Open `Settings > Keybindings` and click the link for **your keymap file**. Paste
 ```
 
 #### Install packages
-
 Open `Settings > Packages` and install the following packages:
 
 ```
@@ -124,8 +146,10 @@ language-postcss
 
 ### VS Code
 
-#### Install extensions
+#### Customize settings
+Open `Settings > Text Editor > Font` and set the font size to 16.
 
+#### Install extensions
 Click the `Extensions` icon in the left sidebar and install the following extensions:
 
 ```
@@ -136,6 +160,7 @@ GitLens - Git supercharged
 GraphQL: Inline Operation Execution
 GraphQL: Language Feature Support
 GraphQL: Syntax Highlighting
+Markdown Preview Github Styling
 Prettier - Code formatter
 Prettier ESLint
 YAML
